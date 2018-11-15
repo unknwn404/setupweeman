@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "Black Cyber99"
+echo "Ruler of Dark World"
+echo "Script Created By Rabby(Unknwñ)"
+echo "You Are Going To Install Weeman The Phishing Tool For Android Termux"
+echo "So Sit Back And Relax"
+echo "Installing The Required Packages"
+apt update
+apt upgrade -y
+apt install python python2 git wget openssh -y
+echo "Cloning Into The Weeman Git Repository"
+cd $PREFIX/share
+git clone https://github.com/evait-security/weeman
+echo "Giving A Final Touch Up"
+cd $PREFIX/bin
+chmod +x $PREFIX/bin/weeman
+cd $HOME
+wget https://raw.githubusercontent.com/unknwn404/setupweeman/master/weeman
+chmod +x weeman
+mv weeman $PREFIX/bin/
+echo "Done"
+echo "To Start Weeman Type <weeman> On Any Session"
+echo "Never Give Up Spamming"
+echo "This Message Is For Sajib"
+echo "Always Smile And Never Give Up"
+echo "Thank You Stay With Us"
